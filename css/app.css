@@ -1,0 +1,75 @@
+/* flex 导致 要把外变局 内边距 设置为0 */
+* {
+    margin:0;
+    padding:0;
+}
+.w {
+    width: 1204px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* .header * {
+    border: 1px solid red
+} */
+.header {
+    display: flex;
+    margin:30px auto;
+    height: 42px;
+}
+.header .logo{
+    height: 42px;
+    line-height: 42px;
+}
+.header .nav {
+    margin:0 105px 0 60px;
+}
+.header .nav>ul {
+    display: flex;
+    align-items: center;
+}
+.header .nav>ul li {
+}
+/* 到底给 a 设置高度还是 li */
+.header .nav>ul li a {
+    display: block;
+    padding:0 10px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+/* header-search_box */
+.search_box {
+    display: flex;
+    width: 411px;
+    height: 42px;
+}
+.search_box  input {
+    border: 1px solid #00a4ff;
+    border-right: none;
+    width: 359px;
+    height: 40px;
+
+}
+.search_box button {
+    border: none;
+    width: 49px;
+    height: 42px;
+    background: url('../imgs/fa-search.png')
+}
+
+/* user */
+.header .user {
+    margin-left: 30px;
+    height: 42px;
+    line-height: 42px;
+}
+.header .user img {
+    vertical-align: middle;
+}
