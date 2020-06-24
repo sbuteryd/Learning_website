@@ -19,6 +19,7 @@ a {
     border: 1px solid red
 } */
 .header {
+<<<<<<< HEAD
   display: flex;
   margin: 30px auto;
   height: 42px;
@@ -44,9 +45,41 @@ a {
   line-height: 42px;
   font-size: 18px;
   color: #050505;
+=======
+    margin:30px auto;
+    height: 42px;
+}
+.header .logo{
+    float: left;
+    height: 42px;
+    line-height: 42px;
+}
+.header .nav {
+  float: left;
+    margin:0 105px 0 60px;
+}
+.header .nav>ul {
+    align-items: center;
+}
+.header .nav>ul li {
+  float: left;
+}
+/* 到底给 a 设置高度还是 li */
+.header .nav>ul li a {
+    display: block;
+    padding:0 15px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+>>>>>>> 0ca3a6e1e2f65fbcc0b37b188cbdd128a6b33c2f
+}
+.header .nav>ul li a:hover{
+  border-bottom: 1px solid #00a4ff;
 }
 /* header-search_box */
 .search_box {
+<<<<<<< HEAD
   display: flex;
   width: 411px;
   height: 42px;
@@ -62,10 +95,29 @@ a {
   width: 49px;
   height: 42px;
   background: url("../imgs/fa-search.png");
+=======
+    float: left;
+    width: 411px;
+    height: 42px;
 }
-
+.search_box  input {
+  float: left;
+    border: 1px solid #00a4ff;
+    border-right: none;
+    width: 359px;
+    height: 40px;
+}
+.search_box button {
+  float: left;
+    border: none;
+    width: 49px;
+    height: 42px;
+    background: url('../imgs/fa-search.png')
+>>>>>>> 0ca3a6e1e2f65fbcc0b37b188cbdd128a6b33c2f
+}
 /* user */
 .header .user {
+<<<<<<< HEAD
   margin-left: 30px;
   height: 42px;
   line-height: 42px;
@@ -147,3 +199,13 @@ a {
   line-height: 40px;
 }
 /*banner 结束*/
+=======
+  float: left;
+    margin-left: 40px;
+    height: 42px;
+    line-height: 42px;
+}
+.header .user img {
+    vertical-align: middle;
+}
+>>>>>>> 0ca3a6e1e2f65fbcc0b37b188cbdd128a6b33c2f
