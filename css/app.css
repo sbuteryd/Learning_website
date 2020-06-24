@@ -81,3 +81,73 @@ a {
   vertical-align: middle;
   line-height: 42px;
 }
+/* 头部结束了 */
+
+/* 版心开始 */
+.banner_box {
+  height: 420px;;
+  background: #1c036c;
+}
+.banner_box  .banner {
+  height: 420px;;
+  background: url('../imgs//banner2.png') no-repeat top center;
+}
+.banner_box .nav {
+  float: left;
+  padding:0 20px;
+  padding-top: 10px;
+  width: 192px;
+  height: 420px;
+  background: rgba(20,2,75,0.8)
+}
+.banner_box .nav ul li a {
+  line-height: 45px;
+  font-size: 14px;
+  color: #ffffff
+}
+.banner_box .nav ul li a:hover{
+  color: #00a4ff
+}
+.banner_box .nav ul li a>span {
+  float: right;
+}
+.banner_box .course {
+  float: right;
+  margin-top: 48px;
+  width: 229px;
+  height: 302px;
+  background: #fff;
+}
+.banner_box .course ul>li {
+  padding: 12px 0 15px 19px;
+  border-bottom: 1px solid #eaeaea;
+}
+.banner_box .course h2 {
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  background: #9bceea;
+  font-size: 18px;
+  color: #fff
+}
+.banner_box .course h4 {
+  font-size: 16px;
+  color: #4e4e4e;
+}
+.banner_box .course p {
+  font-size: 12px;
+  color: #a5a5a5;
+}
+
+.banner_box .course a {
+  display: block;
+  border: 1px solid #00a4ff;
+  margin-top: 5px;
+  margin-left: 19px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #00a4ff;
+}
+/* 版心结束 */
