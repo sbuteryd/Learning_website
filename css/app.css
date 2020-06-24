@@ -18,55 +18,60 @@ a {
     border: 1px solid red
 } */
 .header {
-    display: flex;
     margin:30px auto;
     height: 42px;
 }
 .header .logo{
+    float: left;
     height: 42px;
     line-height: 42px;
 }
 .header .nav {
+  float: left;
     margin:0 105px 0 60px;
 }
 .header .nav>ul {
-    display: flex;
     align-items: center;
 }
 .header .nav>ul li {
+  float: left;
 }
 /* 到底给 a 设置高度还是 li */
 .header .nav>ul li a {
     display: block;
-    padding:0 10px;
+    padding:0 15px;
     height: 42px;
     line-height: 42px;
     font-size: 18px;
     color: #050505;
 }
+.header .nav>ul li a:hover{
+  border-bottom: 1px solid #00a4ff;
+}
 /* header-search_box */
 .search_box {
-    display: flex;
+    float: left;
     width: 411px;
     height: 42px;
 }
 .search_box  input {
+  float: left;
     border: 1px solid #00a4ff;
     border-right: none;
     width: 359px;
     height: 40px;
-
 }
 .search_box button {
+  float: left;
     border: none;
     width: 49px;
     height: 42px;
     background: url('../imgs/fa-search.png')
 }
-
 /* user */
 .header .user {
-    margin-left: 30px;
+  float: left;
+    margin-left: 40px;
     height: 42px;
     line-height: 42px;
 }
