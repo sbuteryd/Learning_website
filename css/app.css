@@ -3,6 +3,10 @@
   padding:0;
   box-sizing: border-box;
 }
+body {
+  background: #f3f5f7;
+  height: 3000px;
+}
 li {
   list-style: none
 }
@@ -10,7 +14,13 @@ li {
 a {
   text-decoration: none;
 }
-
+.clearfloat::before,.clearfloat::after {
+  display: table;
+  content: '';
+}
+.clearfloat::after{
+  clear: both;
+}
 .w {
   width: 1200px;
   margin:0 auto;
@@ -151,3 +161,85 @@ a {
   color: #00a4ff;
 }
 /* 版心结束 */
+
+/* 兴趣开始 */
+.interest {
+  margin-top: 8px;
+  box-shadow: 1px 1px 5px #6b6a6a;
+  height: 60px;
+  background: #fff;
+}
+.interest h3 {
+  float: left;
+  margin-left: 34px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  color: #00a4ff;
+}
+.interest ul li{
+  float: left;
+  padding:0 25px;
+  height: 60px;
+  line-height: 60px;
+}
+.interest ul li>a {
+  padding:0 10px;
+  font-size: 16px;
+  border-left: 1px solid #bfbfbf;
+  color: #050505
+}
+.interest>a {
+  float: right;
+  margin-right: 30px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  color: #00a4ff;
+}
+/* 兴趣结束 */
+
+/* 精品推荐开始 */
+.boutique_header {
+  height: 22px;
+  margin: 37px 0 21px 0;
+}
+.boutique_header  h3 {
+  float: left;
+  font-size: 20px;
+  color: #494949;
+}
+.boutique_header  a {
+  float:right;
+  font-size: 12px;
+  color: #a5a5a5;
+}
+ 
+.boutique_bd {
+  width: 1260px;
+}
+.boutique_bd img {
+  width: 100%;
+}
+.boutique_bd ul>li {
+  float: left;
+  margin:0 15px 15px 0;
+  box-shadow: 1px 1px 5px rgb(110, 105, 105);
+  width: 228px;
+  height: 278px;
+  background: #ffffff;
+}
+.boutique_bd ul>li  h4 {
+  padding:22px 19px 0 22px;
+  font-size: 14px;
+  color: #050505;
+}
+.infor {
+  padding: 18px 19px 0 22px;
+  font-size: 12px;
+  color: #999999;
+}
+.boutique_bd ul>li span {
+  color: #ff7c2d;
+}
+/* 精品推荐结束 */
