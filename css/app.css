@@ -341,6 +341,69 @@ a {
   color: #050505;
 }
 /* 编程入门结束了 */
+/* 前端开始了 */
+.box_front {
+  margin-top: 40px;
+}
+.box_front_hd {
+  height: 42px;
+}
+.box_front_hd  h4 {
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  font-size: 20px;
+  color: #494949;
+}
+.box_front_hd .nav {
+  float: left;
+  margin-left: 291px;
+}
+ 
+.box_front_hd .nav ul>li{
+  float: left;
+}
+.box_front_hd .nav ul>li>a {
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  padding:0 25px;
+  font-size: 16px;
+  color: #868686;
+}
+.box_front_hd>a {
+  display: block;
+  float: right;
+  height: 42px;
+  line-height: 42px;
+  font-size: 12px;
+  color: #a5a5a5;
+}
+.box_front_bd img {
+  width: 100%;
+}
+.box_front_bd ul {
+  width: 1230px;
+}
+.box_front_bd ul>li {
+  float: left;
+  margin-right: 15px;
+  width: 231px;
+  height: 271px;
+  background: #fff;
+}
+.box_front_bd ul>li h4 {
+  margin-top: 24px;
+  padding-left: 22px;
+  font-size: 14px;
+  color: #050505;
+}
+.box_front_bd ul>li .box_front_infor {
+  padding-left: 22px;
+  font-size: 12px;
+  color: #999999;
+}
+/* 前端结束了 */
 /* footer开始 */
 .footer {
   margin-top: 111px;
