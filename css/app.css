@@ -324,11 +324,16 @@ a {
   width: 228px;
   height: 271px;
   background: #fff;
-
-
+}
+.box_bd .bd>ul>li>h4 {
+  padding-top: 20px;
+  padding-left: 20px;  
 }
 .box_bd .bd>ul>li  em {
   position: absolute;
+}
+.box_bd .bd>ul>li .infor span {
+  color: #ff7c2d;
 }
  
 .box_bd.clearfloat >.right > .bd > ul > li> h4 {
