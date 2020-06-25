@@ -24,58 +24,70 @@ a {
   width: 1200px;
   margin:0 auto;
 }
-.header {
+.title {
+  font-size: 20px;
+  color: #494949;
+}
+.infor_a {
+  font-size: 12px;
+    color: #a5a5a5;
+}
+.middel_a {
+  font-size: 16px;
+  color: #868686
+}
+.header_first {
   margin: 30px auto;
   height: 42px
 }
-.header .logo {
+.header_first .logo {
   float: left;
   width:195px ;
   height: 42px
 }
 
-.header .nav {
+.header_first .nav {
   float: left;
   margin-left: 70px;
   height: 42px
 }
  
-.header .nav  li  {
+.header_first .nav  li  {
   float: left;
   height: 42px;
   line-height: 42px
 }
-.header .nav ul li  a {
+.header_first .nav ul li  a {
    display: block;
    padding:0 15px;
    line-height: 42px;
    font-size: 18px;
    color: #050505
 }
-.header .nav ul li  a:hover{
+.header_first .nav ul li  a:hover{
   border-bottom: 1px solid #00a4ff;
 }
-.header .search_box {
+.header_first .search_box {
   float: left;
   margin-left: 108px;
   width: 413px;
   height: 42px
 }
-.header .search_box input {
+.header_first .search_box input {
   float: left;
   border: 1px solid #00a4ff;
   border-right: none;
   width: 361px;
   height: 42px;
 }
-.header .search_box button {
+.header_first .search_box button {
   float: left;
   border: none;
   width: 51px;
   height: 42px;
   background: url('../imgs//fa-search.png')
 }
-.header .user {
+.header_first .user {
   float: left;
   height: 42px
 }
@@ -254,9 +266,79 @@ a {
   color: #ff7c2d;
 }
 /* 精品推荐结束 */
+/* 编程入门开始了 */
+.box {
+  margin-top: 38px;
+}
+ 
+.box_hd>ul {
+  margin-left: 351px;
+}
+.box_hd>h3,.box_hd>ul,.box_hd>ul>li {
+  float: left;
+  height:42px ;
+  line-height: 42px;
+}
+ 
+.box_hd>ul>li>a {
+  padding:0 25px;
+  height:42px ;
+  line-height: 42px;
+  font-size: 16px;
+  color: #868686;
+}
+.box_hd>ul>li>a:hover{
+  color: #00a4ff;
+}
+.box_hd>a {
+  float:right;
+  height:42px ;
+  line-height: 42px;
+}
+.box_bd {
+  float: left;
+  height: 392px;
+  /* margin-left: 15px; */
+}
+.box_bd .right .hd  {
+  margin-left: 15px;
+  margin-bottom: 16px;
+}
+.box_bd .right .hd img {
+  width: 100%;
+}
+.box_bd>.left{
+  float: left;
+}
+.box_bd>.right{
+  float: left;
+}
+ 
+.box_bd .bd>ul>li img {
+  width: 100%;
+}
+.box_bd .bd>ul>li {
+  float: left;
+  margin-left: 15px;
+  position: relative;
+  width: 228px;
+  height: 271px;
+  background: #fff;
+
+
+}
+.box_bd .bd>ul>li  em {
+  position: absolute;
+}
+ 
+.box_bd.clearfloat >.right > .bd > ul > li> h4 {
+  font-size: 14px;
+  color: #050505;
+}
+/* 编程入门结束了 */
 /* footer开始 */
 .footer {
-  margin-top: 40px;
+  margin-top: 111px;
   height: 415px;
   background: #fff;
 }
