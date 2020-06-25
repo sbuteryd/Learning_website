@@ -217,6 +217,18 @@ a {
 .boutique_bd {
   width: 1260px;
 }
+.boutique_bd ul>li {
+  position: relative;
+}
+.boutique_bd em{
+  position: absolute;
+  top:0;
+  right: -5px;
+}
+.boutique_bd em img {
+  width: 41px;
+  height: 21px;
+}
 .boutique_bd img {
   width: 100%;
 }
