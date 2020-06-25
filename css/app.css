@@ -265,6 +265,24 @@ a {
 .boutique_bd ul>li span {
   color: #ff7c2d;
 }
+/* out side 课程 开始 */
+.out_side {
+  position: fixed;
+  top:400px;
+  margin-right:610px;
+  right: 50%;
+  width: 185px;
+  height: 425px;
+  background: #fff
+}
+.out_side>ul>li>a {
+  padding-left: 22px;
+  height: 37px;
+  font-size: 14px;
+  line-height: 37px;
+  color: #000000;
+}
+/* out 结束 */
 /* 精品推荐结束 */
 /* 编程入门开始了 */
 .box {
