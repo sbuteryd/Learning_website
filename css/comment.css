@@ -71,8 +71,13 @@ a {
     color: #050505
 }
 
+.header .nav li a:hover {
+    border-bottom: 2px solid #00a4ff
+}
+
 .header .search {
     margin-left: 106px;
+    border: 1px solid #ccc;
     width: 413px;
     height: 44px;
     float: left;
@@ -80,6 +85,7 @@ a {
 }
 
 .header .search input {
+    border: none;
     width: 363px;
     height: 44px;
     float: left;
