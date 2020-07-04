@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* /* 这个没有初始化 搞了很久 */
+}
+
+body {
+    background: #f3f5f7;
+    font-size: 12px;
+    color: #666666;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfloat::after,
+.clearfloat::before {
+    content: "";
+    display: table;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+/* 头部开始了 */
+.header {
+    height: 44px;
+    margin: 30px auto;
+}
+
+.header .logo {
+    float: left;
+    width: 198px;
+    height: 44px;
+}
+
+.header .nav {
+    float: left;
+    margin-left: 70px;
+}
+
+.header .nav li {
+    float: left;
+}
+
+.header .nav li a {
+    display: block;
+    height: 44px;
+    padding: 0 10px;
+    line-height: 44px;
+    font-size: 18px;
+    color: #050505
+}
+
+.header .search {
+    margin-left: 106px;
+    width: 413px;
+    height: 44px;
+    float: left;
+    line-height: 44px;
+}
+
+.header .search input {
+    width: 363px;
+    height: 44px;
+    float: left;
+}
+
+.header .search button {
+    width: 50px;
+    height: 44px;
+    float: left;
+    border: none;
+    background: url('../imgs/fa-search.png')
+}
+
+.header .user {
+    height: 44px;
+    float: left;
+    margin-left: 31px;
+}
+
+.header .user img {
+    vertical-align: middle;
+}
+
+.header .user span {
+    line-height: 44px;
+}
+
+/* 头部结束了 */
+
+/* footer 开始了 */
+.footer {
+    height: 417px;
+    background: #fff
+}
+
+/* footer 结束了 */
+.footer .w {
+    padding-top: 30px;
+}
+
+.copyright {}
+
+.copyright p {
+    margin: 30px 0 15px;
+}
+
+.copyright a {
+    display: block;
+    border: 1px solid #00a4ff;
+    width: 119px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.content dt {
+    font-size: 16px;
+    color: #333333;
+}
+
+.content dl {
+    float: left;
+    margin-left: 142px;
+    color: #333333;
+    line-height: 31px;
+}
+
+.content dl dd {
+    line-height: 21px;
+}
