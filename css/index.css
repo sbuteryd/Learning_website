@@ -1,9 +1,8 @@
 /* banner 开始了 */
 /* banner- subnav开始了 */
-.subnav {
+/* .subnav {
     float: left;
-}
-
+} */
 .banner .w {
     height: 420px;
     background: url('../imgs/banner2.png') no-repeat top center
@@ -15,17 +14,18 @@
 }
 
 .banner .subnav {
+    float: left;
     width: 192px;
     height: 420px;
-    background: rgba(19, 2, 75, 0.3)
+    background: rgba(20, 2, 75, 0.8)
 }
 
-.banner .subnav ul {
-    padding: 27px 20px 0;
-}
+
 
 .banner .subnav ul li {
+    padding: 0 20px;
     height: 44px;
+    line-height: 44px;
     position: relative;
 }
 
@@ -42,12 +42,16 @@
     content: ">";
     position: absolute;
     top: 0;
-    right: 0;
+    right: 21px;
 }
 
 
 
 /* 课程 开始了 */
+.bd {
+    margin: 0 18px
+}
+
 .course {
     margin-top: 50px;
     width: 227px;
@@ -65,18 +69,17 @@
     line-height: 50px;
 }
 
-.course ul {
-    margin: 10px 17px 0;
-}
 
 .course ul li {
-    height: 62px;
+    /* height: 62px; */
+    /* link */
+    padding: 14px 0;
     border-bottom: 1px solid #ccc
 }
 
 .course ul li h4 {
-    padding-top: 13px;
-    font-size: 14px;
+    /* padding-top: 13px; */
+    font-size: 16px;
     color: #4e4e4e
 }
 
@@ -94,7 +97,8 @@
     text-align: center;
     line-height: 40px;
     font-size: 16px;
-    color: #00a4ff
+    font-weight: 700;
+    color: #00a4ff;
 }
 
 /* banner  结束了 */
@@ -152,8 +156,13 @@
 /* 精品推荐导航 结束 */
 
 /* !-- 精品推荐课程 开始 -- */
+.recom_c_c.w {
+    /* pink */
+    margin-top: 36px
+}
+
 .recom_c_c .hd {
-    margin-top: 36px;
+    /* margin-top: 36px; */
     height: 41px;
 }
 
@@ -165,9 +174,19 @@
 .recom_c_c .hd a {
     font-size: 12px;
     color: #a5a5a5;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+/* pink */
+.recom_c_c .bd ul {
+    width: 1225px;
 }
 
 .recom_c_c .bd ul li {
+    margin-right: 15px;
+    /* pink */
+    margin-bottom: 15px;
     width: 228px;
     height: 270px;
     float: left;
@@ -176,10 +195,6 @@
 
 .recom_c_c .bd ul li img {
     width: 100%;
-}
-
-.recom_c_c .bd ul li {
-    margin-right: 15px;
 }
 
 .recom_c_c .bd ul li:last-child {

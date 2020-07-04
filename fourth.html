@@ -14,31 +14,36 @@
 
 <body>
     <!-- header start -->
-    <header class="header">
-        <div class="w clearfloat">
-            <!-- logo 开始 -->
-            <div class="logo">
-                <img src="./imgs/logo.png" alt="">
-            </div>
-            <!-- 导航 -->
-
-            <ul class="nav">
-                <li><a href="#">首页</a></li>
-                <li><a href="#">课程</a></li>
-                <li><a href="#">职业规划</a></li>
-            </ul>
-
-            <!-- 搜索 -->
-            <div class="search">
-                <input type="search" name="" id="">
-                <button></button>
-            </div>
-            <!-- 用户信息 -->
-            <div class="user">
-                <img src="./imgs/avatar.png" alt="">
-                <span>russell</span>
-            </div>
+    <header class="header w">
+        <!-- pink 老师建议 -->
+        <!-- <div class="w"> -->
+        <!-- <div class="w clearfloat">  russell-->
+        <!-- logo 开始 -->
+        <div class="logo">
+            <img src="./imgs/logo.png" alt="">
         </div>
+        <!-- 导航 -->
+
+        <div class="nav">
+            <!-- <ul class="nav"> -->
+            <li><a href="#">首页</a></li>
+            <li><a href="#">课程</a></li>
+            <li><a href="#">职业规划</a></li>
+            <!-- </ul> -->
+        </div>
+        <!-- 搜索 -->
+        <div class="search">
+            <!-- <input type="search" name="" id=""> -->
+            <!-- pink -->
+            <input placeholder="请输入内容" type="search" name="" id="">
+            <button></button>
+        </div>
+        <!-- 用户信息 -->
+        <div class="user">
+            <img src="./imgs/avatar.png" alt="">
+            <span>russell</span>
+        </div>
+        <!-- </div> -->
 
     </header>
     <!-- header end -->
@@ -63,31 +68,56 @@
             <!-- 课程 -->
             <div class="course">
                 <h3>我的课程</h3>
-                <ul>
-                    <li>
-                        <h4> 继续学习 程序语言设计</h4>
-                        <p> 正在学习-使用对象</p>
-                    </li>
-                    <li>
-                        <h4> 继续学习 程序语言设计</h4>
-                        <p> 正在学习-使用对象</p>
-                    </li>
-                    <li>
-                        <h4> 继续学习 程序语言设计</h4>
-                        <p> 正在学习-使用对象</p>
-                    </li>
+                <div class="bd">
+                    <ul>
+                        <li>
+                            <h4> 继续学习 程序语言设计</h4>
+                            <p> 正在学习-使用对象</p>
+                        </li>
+                        <li>
+                            <h4> 继续学习 程序语言设计</h4>
+                            <p> 正在学习-使用对象</p>
+                        </li>
+                        <li>
+                            <h4> 继续学习 程序语言设计</h4>
+                            <p> 正在学习-使用对象</p>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
                 <a href="#">全部课程</a>
             </div>
 
         </div>
     </div>
     <!-- banner end -->
+    <!-- 精品推荐导航 开始 -->
+    <div class="w recom_c_n">
+        <h3 class="fl">精品推荐</h3>
+        <ul class="fl">
+            <li>
+                <a href="#">Jquery</a>
+            </li>
+            <li>
+                <a href="#">Jquery</a>
+            </li>
+            <li>
+                <a href="#">Jquery</a>
+            </li>
+            <li>
+                <a href="#">Jquery</a>
+            </li>
+            <li>
+                <a href="#">Jquery</a>
+            </li>
+        </ul>
+        <a href="#" class="fr">修改兴趣</a>
 
+    </div>
+    <!-- 精品推荐导航 结束 -->
     <div class="box">
         <!-- 精品推荐导航 开始 -->
-        <div class="w recom_c_n">
+        <!-- <div class="w recom_c_n">
             <h3 class="fl">精品推荐</h3>
             <ul class="fl">
                 <li>
@@ -108,7 +138,7 @@
             </ul>
             <a href="#" class="fr">修改兴趣</a>
 
-        </div>
+        </div> -->
         <!-- 精品推荐导航 结束 -->
 
         <!-- 精品推荐课程 开始 -->
@@ -119,6 +149,24 @@
             </div>
             <div class="bd clearfloat">
                 <ul>
+                    <li>
+                        <img src='./imgs/php.png' alt="">
+                        <div>
+                            <h4>Think PHP 5.0 博客系统实战 <br> 项目演练 </h4>
+                            <div class="infor">
+                                <span>高级</span> • 1125人在学习
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src='./imgs/php.png' alt="">
+                        <div>
+                            <h4>Think PHP 5.0 博客系统实战 <br> 项目演练 </h4>
+                            <div class="infor">
+                                <span>高级</span> • 1125人在学习
+                            </div>
+                        </div>
+                    </li>
                     <li>
                         <img src='./imgs/php.png' alt="">
                         <div>
@@ -276,29 +324,30 @@
             </div>
             <div class='content fr'>
                 <dl>
-                    <dt>关于学成网</dt>
-                    <dd> 关于</dd>
-                    <dd> 管理团队</dd>
-                    <dd> 工作机会</dd>
-                    <dd> 客户服务</dd>
-                    <dd> 帮助</dd>
+                    <dt> 关于学成网 </dt>
+                    <dd> <a href="">关于</a> </dd>
+                    <dd><a href="">管理团队</a> </dd>
+                    <dd><a href="">管理团队</a> </dd>
+                    <dd> <a href="">客户服务</a> </dd>
+                    <dd> <a href="">帮助</a> </dd>
                 </dl>
                 <dl>
-                    <dt>关于学成网</dt>
-                    <dd> 关于</dd>
-                    <dd> 管理团队</dd>
-                    <dd> 工作机会</dd>
-                    <dd> 客户服务</dd>
-                    <dd> 帮助</dd>
+                    <dt> 关于学成网 </dt>
+                    <dd> <a href="">关于</a> </dd>
+                    <dd><a href="">管理团队</a> </dd>
+                    <dd><a href="">管理团队</a> </dd>
+                    <dd> <a href="">客户服务</a> </dd>
+                    <dd> <a href="">帮助</a> </dd>
                 </dl>
                 <dl>
-                    <dt>关于学成网</dt>
-                    <dd> 关于</dd>
-                    <dd> 管理团队</dd>
-                    <dd> 工作机会</dd>
-                    <dd> 客户服务</dd>
-                    <dd> 帮助</dd>
+                    <dt> 关于学成网 </dt>
+                    <dd> <a href="">关于</a> </dd>
+                    <dd><a href="">管理团队</a> </dd>
+                    <dd><a href="">管理团队</a> </dd>
+                    <dd> <a href="">客户服务</a> </dd>
+                    <dd> <a href="">帮助</a> </dd>
                 </dl>
+
             </div>
         </div>
 
