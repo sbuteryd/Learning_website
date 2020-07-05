@@ -44,7 +44,6 @@ a {
     height: 42px;
     /* 行高可以继承 */
     line-height: 42px;
-    background: #fff
 }
 
 /* 头部-导航 */
@@ -70,19 +69,22 @@ a {
 /* 头部-搜索 */
 .header .search {
     width: 413px;
-
+    margin-left: 90px;
 }
 
 .header .search input {
     float: left;
+    border: 1px solid #00a4ff;
+    border-right: 0;
     width: 361px;
-    height: 42px;
+    height: 40px;
+
 }
 
 .header .search button {
     float: left;
-    border: none;
-    width: 52px;
+    border: 0;
+    width: 50px;
     height: 42px;
     background: url('../imgs/fa-search.png') no-repeat top center;
 }
@@ -90,7 +92,7 @@ a {
 /* 头部-用户信息 */
 .header .user {
     float: left;
-    margin-left: 30px;
+    margin-left: 49px;
 }
 
 .header .user img {
