@@ -123,3 +123,61 @@
 }
 
 /* 精品课程导航 结束*/
+
+/*精品推荐课程详情 开始 */
+.box.w {
+    width: 1220px;
+}
+
+.box .cours_info .hd {
+    height: 40px;
+}
+
+.box .cours_info .hd h4 {
+    font-size: 20px;
+    color: #494949
+}
+
+.box .cours_info .hd a {
+    font-size: 12px;
+    color: #a5a5a5
+}
+
+/* bd */
+.box .cours_info .bd h4 {
+    padding-top: 22px;
+    padding-left: 20px
+}
+
+
+
+.box .cours_info .bd ul li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 229px;
+    height: 270px;
+    background: #fff;
+}
+
+.box .cours_info .bd ul li img {
+    width: 100%;
+}
+
+.box .cours_info .bd ul li h4 {
+    font-size: 14px;
+    color: #050505;
+}
+
+.box .cours_info .bd ul li span {
+    color: #ff7c2d
+}
+
+.box .cours_info .bd ul li .infor {
+    padding-top: 18px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #999999;
+}
+
+/*精品推荐课程详情 结束 */
